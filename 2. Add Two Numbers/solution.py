@@ -15,12 +15,12 @@ class Solution(object):
         current_node = result = ListNode(0)
         flag = 0
 
-        while l1 is not None or l2 is not None or flag:
+        while l1 != None or l2 != None or flag:
             current_val = flag
-            if l1 is not None:
+            if l1 != None:
                 current_val += l1.val
                 l1 = l1.next
-            if l2 is not None:
+            if l2 != None:
                 current_val += l2.val
                 l2 = l2.next
             flag = current_val // 10
