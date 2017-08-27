@@ -1,4 +1,7 @@
 class Solution(object):
+    """
+    用字典存储 值 - 索引 对
+    """
     def twoSum(self, nums, target):
         """
         :type nums: List[int]

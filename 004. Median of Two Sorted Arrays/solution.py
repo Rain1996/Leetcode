@@ -1,4 +1,9 @@
 class Solution(object):
+    """
+    nums1和nums2已经排好序了,
+    那就合成一个新的排好序的数组,
+    然后根据长度来取值
+    """
     def findMedianSortedArrays(self, nums1, nums2):
         """
         :type nums1: List[int]
